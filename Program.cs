@@ -12,7 +12,7 @@ namespace Arena
         {
             RollingDie die = new RollingDie(10);
             Warrior warrior = new Warrior("U", 100, 20, 10, die);
-            Warrior enemy = new Mage("Freeza", 100, 20, 10, die, 35, 40);
+            Warrior enemy = new Mage("Boo", 100, 20, 10, die, 35, 40);
             Arena arena = new Arena(warrior, enemy, die);
 
             arena.Fight();
